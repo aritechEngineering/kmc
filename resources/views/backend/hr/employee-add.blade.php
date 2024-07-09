@@ -49,17 +49,31 @@
                                             <div class="row py-5">
                                                 <div class="col-lg-8 mx-auto">
                                                     <div class="row g-6">
-                                                        <div class="col-md-6">
+                                                        <div class="col-md-1">
+                                                            <div class="form-check form-check-inline">
+                                                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                                                <label class="form-check-label" for="inlineRadio1">Mr.</label>
+                                                              </div>
+                                                              <div class="form-check form-check-inline">
+                                                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                                                <label class="form-check-label" for="inlineRadio2">Miss.</label>
+                                                              </div>
+                                                              <div class="form-check form-check-inline">
+                                                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+                                                                <label class="form-check-label" for="inlineRadio3">Mrs.</label>
+                                                              </div>
+                                                        </div>
+                                                        <div class="col-md-5">
                                                             <label class="form-label" for="fullname">Full Name</label>
-                                                            <input type="text" id="fullname" class="form-control" placeholder="John Doe" />
+                                                            <input type="text" id="fullname" class="form-control" placeholder="" />
                                                         </div>
                                                         <div class="col-md-6">
                                                             <label class="form-label" for="father">Father's Name</label>
-                                                            <input type="text" id="father" class="form-control" placeholder="Father's Name Enter" />
+                                                            <input type="text" id="father" class="form-control" placeholder="" />
                                                         </div>
                                                         <div class="col-md-6">
                                                             <label class="form-label" for="mother">Mother's Name</label>
-                                                            <input type="text" id="mother" class="form-control" placeholder="Mother's Name Enter" />
+                                                            <input type="text" id="mother" class="form-control" placeholder="" />
                                                         </div>
                                                         <div class="col-md-6">
                                                             <label class="form-label" for="dob">Date of Birth</label>
@@ -67,7 +81,7 @@
                                                         </div>
                                                         <div class="col-md-6">
                                                             <label class="form-label" for="gender">Gender</label>
-                                                            <select id="gender" class="select2 form-select" data-placeholder="Select gender">
+                                                            <select id="gender" class="select2 form-select" data-placeholder="">
                                                                 <option value="">Select gender</option>
                                                                 <option value="Male">Male</option>
                                                                 <option value="Female">Female</option>
@@ -76,7 +90,7 @@
                                                         </div>
                                                         <div class="col-md-6">
                                                             <label class="form-label" for="religion">Religion</label>
-                                                            <select id="religion" class="select2 form-select" data-placeholder="Select gender">
+                                                            <select id="religion" class="select2 form-select" data-placeholder="">
                                                                 <option value="">Select religion</option>
                                                                 <option value="Buddhism">Buddhism</option>
                                                                 <option value="Hinduism">Hinduism</option>
@@ -88,7 +102,7 @@
                                                             </select>
                                                         </div>
                                                         <div class="col-md-6">
-                                                            <label class="form-label" for="marital">Marital</label>
+                                                            <label class="form-label" for="marital">Marital Status</label>
                                                             <select id="marital" class="select2 form-select" data-placeholder="Select marital">
                                                                 <option value="">Select marital</option>
                                                                 <option value="Unmarried">Unmarried</option>
@@ -112,31 +126,31 @@
                                                         </div>
                                                         <div class="col-md-6">
                                                             <label class="form-label" for="nid">NID</label>
-                                                            <input type="number" id="nid" class="form-control" placeholder="2547846512" />
+                                                            <input type="number" id="nid" class="form-control" placeholder="" />
                                                         </div>
                                                         <div class="col-md-6">
                                                             <label class="form-label" for="phone">Contact Number</label>
-                                                            <input type="text" id="phone" class="form-control phone-mask" placeholder="658 799 8941" aria-label="658 799 8941" />
+                                                            <input type="text" id="phone" class="form-control phone-mask" placeholder="" aria-label="658 799 8941" />
                                                         </div>
                                                         <div class="col-md-6">
-                                                            <label class="form-label" for="alt-num">Alternate Number</label>
-                                                            <input type="text" id="alt-num" class="form-control phone-mask" placeholder="658 799 8941" />
+                                                            <label class="form-label" for="alt-num">Alternative Contact Number</label>
+                                                            <input type="text" id="alt-num" class="form-control phone-mask" placeholder="" />
                                                         </div>
                                                         <div class="col-md-6">
-                                                            <label class="form-label" for="alt-num">Emergency Number</label>
-                                                            <input type="text" id="alt-num" class="form-control phone-mask" placeholder="658 799 8941" />
+                                                            <label class="form-label" for="alt-num">Emergency Contact Number</label>
+                                                            <input type="text" id="alt-num" class="form-control phone-mask" placeholder="" />
                                                         </div>
                                                         <div class="col-md-6">
                                                             <label class="form-label" for="email">Email</label>
                                                             <div class="input-group input-group-merge">
-                                                                <input class="form-control" type="text" id="email" name="email" placeholder="john.doe" aria-label="john.doe" aria-describedby="email3" />
+                                                                <input class="form-control" type="text" id="email" name="email" placeholder="" aria-label="john.doe" aria-describedby="email3" />
                                                                 <span class="input-group-text" id="email3">@example.com</span>
                                                             </div>
                                                         </div>
                                                         <div class="col-md-6">
-                                                            <label class="form-label" for="email">Alternate Email</label>
+                                                            <label class="form-label" for="email">Alternative Email</label>
                                                             <div class="input-group input-group-merge">
-                                                                <input class="form-control" type="text" id="email" name="email" placeholder="john.doe" aria-label="john.doe" aria-describedby="email3" />
+                                                                <input class="form-control" type="text" id="email" name="email" placeholder="" aria-label="john.doe" aria-describedby="email3" />
                                                                 <span class="input-group-text" id="email3">@example.com</span>
                                                             </div>
                                                         </div>
@@ -162,7 +176,7 @@
                                                 <div class="col-lg-8 mx-auto">
                                                     <div class="row g-6">
                                                         <!-- Personal Address -->
-                                                        <h5 class="mb-3">Personal Address</h5>
+                                                        <h5 class="mb-3">Mailing Address</h5>
                                                         <div class="col-md-12">
                                                             <div class="form-check form-check-inline">
                                                                 <input name="collapsible-address-type" class="form-check-input" type="radio" value="" id="collapsible-address-type-home" checked="" />
@@ -282,14 +296,15 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="card accordion-item">
+                                {{-- <div class="card accordion-item">
                                     <h2 class="accordion-header" id="headingPI3">
-                                        <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#accordionPI3" aria-expanded="false" aria-controls="accordionPI3">Career and Application Information</button>
+                                        <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#accordionPI3" aria-expanded="false" aria-controls="accordionPI3">
+                                            Career and Application Information</button>
                                     </h2>
                                     <div id="accordionPI3" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExampleOne">
                                         <div class="accordion-body">Oat cake toffee chocolate bar jujubes. Marshmallow brownie lemon drops cheesecake. Bonbon gingerbread marshmallow sweet jelly beans muffin. Sweet roll bear claw candy canes oat cake dragée caramels. Ice cream wafer danish cookie caramels muffin.</div>
                                     </div>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                     </div>
@@ -327,7 +342,7 @@
                                                                         </select>
                                                                     </div>
                                                                     <div class="col-md-6">
-                                                                        <label class="form-label" for="degree">Exam/Degree Title</label>
+                                                                        <label class="form-label" for="degree">Exam Title</label>
                                                                         <select id="degree" class="select2 form-select" data-placeholder="Select degree">
                                                                             <option value="">Select degree</option>
                                                                             <option value="O Level">O Level</option>
@@ -449,7 +464,7 @@
                                                                         <input type="text" id="duration" class="form-control phone-mask" placeholder="6 Months" />
                                                                     </div>
                                                                     <div class="col-md-6">
-                                                                        <label class="form-label" for="achievement">Achievement</label>
+                                                                        <label class="form-label" for="achievement">Note</label>
                                                                         <input type="text" id="achievement" class="form-control phone-mask" placeholder="" />
                                                                     </div>
                                                                     <div class="col-md-12">
@@ -492,8 +507,12 @@
                                                                         <input type="text" id="group" class="form-control phone-mask" placeholder="" />
                                                                     </div>
                                                                     <div class="col-md-6">
+                                                                        <label class="form-label" for="group">Training Topic</label>
+                                                                        <input type="text" id="group" class="form-control phone-mask" placeholder="" />
+                                                                    </div>
+                                                                    <div class="col-md-6">
                                                                         <label class="form-label" for="duration">Institute</label>
-                                                                        <input type="text" id="duration" class="form-control phone-mask" placeholder="6 Months" />
+                                                                        <input type="text" id="duration" class="form-control phone-mask" placeholder="" />
                                                                     </div>
                                                                     <div class="col-md-6">
                                                                         <label class="form-label" for="passing">Training Year</label>
@@ -563,18 +582,6 @@
                                                                         </select>
                                                                     </div>
                                                                     <div class="col-md-6">
-                                                                        <label class="form-label" for="achievement">Duration </label>
-                                                                        <input type="text" id="achievement" class="form-control phone-mask" placeholder="" />
-                                                                    </div>
-                                                                    <div class="col-md-6">
-                                                                        <label class="form-label" for="achievement">Location </label>
-                                                                        <input type="text" id="achievement" class="form-control phone-mask" placeholder="" />
-                                                                    </div>
-                                                                    <div class="col-md-6">
-                                                                        <label class="form-label" for="group">Country</label>
-                                                                        <input type="text" id="group" class="form-control phone-mask" placeholder="" />
-                                                                    </div>
-                                                                    <div class="col-md-6">
                                                                         <label class="form-label" for="start_date">Start Date</label>
                                                                         <input type="date" id="start_date" class="form-control" placeholder="2021-06-18" />
                                                                     </div>
@@ -582,6 +589,23 @@
                                                                         <label class="form-label" for="end_date">End Date</label>
                                                                         <input type="date" id="end_date" class="form-control" placeholder="2022-01-18" />
                                                                     </div>
+                                                                    <div class="col-md-6">
+                                                                        <label class="form-label" for="achievement">Duration </label>
+                                                                        <input type="text" id="achievement" class="form-control phone-mask" placeholder="" />
+                                                                    </div>
+                                                                    <div class="col-md-6">
+                                                                        <label class="form-label" for="achievement">City/State</label>
+                                                                        <input type="text" id="achievement" class="form-control phone-mask" placeholder="" />
+                                                                    </div>
+                                                                    <div class="col-md-6">
+                                                                        <label class="form-label" for="group">Country</label>
+                                                                        <input type="text" id="group" class="form-control phone-mask" placeholder="" />
+                                                                    </div>
+                                                                    <div class="col-md-6">
+                                                                        <label class="form-label" for="group">Achievement</label>
+                                                                        <input type="text" id="group" class="form-control phone-mask" placeholder="" />
+                                                                    </div>
+
                                                                     <div class="col-md-12">
                                                                         <div class="d-flex align-items-center column-gap-4">
                                                                             <button type="button" class="btn btn-primary">Save</button>
@@ -603,14 +627,15 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="card accordion-item">
+                                {{-- <div class="card accordion-item">
                                     <h2 class="accordion-header" id="headingET3">
-                                        <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#accordionET3" aria-expanded="false" aria-controls="accordionET3">Professional Certification Summary</button>
+                                        <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#accordionET3" aria-expanded="false" aria-controls="accordionET3">
+                                            Professional Certification Summary</button>
                                     </h2>
                                     <div id="accordionET3" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExampleTwo">
                                         <div class="accordion-body">Oat cake toffee chocolate bar jujubes. Marshmallow brownie lemon drops cheesecake. Bonbon gingerbread marshmallow sweet jelly beans muffin. Sweet roll bear claw candy canes oat cake dragée caramels. Ice cream wafer danish cookie caramels muffin.</div>
                                     </div>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                     </div>
@@ -712,10 +737,18 @@
                                                             <input type="date" id="joining_date" class="form-control" placeholder="2021-06-18" />
                                                         </div>
                                                         <div class="col-md-6">
+                                                            <label class="form-label" for="probation_period">Probation Period End Date</label>
+                                                            <input type="date" id="probation_period" class="form-control" placeholder="2022-01-18" />
+                                                        </div>
+                                                        <div class="col-md-6">
+                                                            <label class="form-label" for="confimation_date">Probation Duration</label>
+                                                            <input type="text" id="confimation_date" class="form-control" placeholder="" />
+                                                        </div>
+                                                        <div class="col-md-6">
                                                             <label class="form-label" for="confimation_date">Confimation Date</label>
                                                             <input type="date" id="confimation_date" class="form-control" placeholder="2021-06-18" />
                                                         </div>
-                                                        <div class="col-md-6">
+                                                        {{-- <div class="col-md-6">
                                                             <div class="ecommerce-select2-dropdown">
                                                                 <label class="form-label" for="probation_duration">Probation Duration</label>
                                                                 <select id="probation_duration" class="select2 form-select" data-placeholder="Select probation duration">
@@ -727,10 +760,11 @@
                                                                     <option value="Automotive">Automotive</option>
                                                                 </select>
                                                             </div>
-                                                        </div>
+                                                        </div> --}}
+                                                        
                                                         <div class="col-md-6">
-                                                            <label class="form-label" for="probation_period">Probation Period End Date</label>
-                                                            <input type="date" id="probation_period" class="form-control" placeholder="2022-01-18" />
+                                                            <label class="form-label" for="salary_range">Salary Range</label>
+                                                            <input type="text" id="salary_range" class="form-control phone-mask" placeholder="" />
                                                         </div>
                                                         <div class="col-md-6">
                                                             <div class="ecommerce-select2-dropdown">
@@ -757,10 +791,6 @@
                                                                     <option value="Automotive">Automotive</option>
                                                                 </select>
                                                             </div>
-                                                        </div>
-                                                        <div class="col-md-6">
-                                                            <label class="form-label" for="salary_range">Salary Range</label>
-                                                            <input type="text" id="salary_range" class="form-control phone-mask" placeholder="" />
                                                         </div>
                                                         <div class="col-md-6">
                                                             <div class="ecommerce-select2-dropdown">
@@ -815,7 +845,7 @@
                                                                     </div>
                                                                     <div class="col-md-6">
                                                                         <label class="form-label" for="duration">Company Business</label>
-                                                                        <input type="text" id="duration" class="form-control phone-mask" placeholder="6 Months" />
+                                                                        <input type="text" id="duration" class="form-control phone-mask" placeholder="" />
                                                                     </div>
                                                                     <div class="col-md-6">
                                                                         <label class="form-label" for="achievement">Designation</label>
@@ -835,16 +865,25 @@
                                                                     </div>
                                                                     <div class="col-12">
                                                                         <label class="form-label" for="address">Responsibilities</label>
-                                                                        <textarea name="address" class="form-control" id="address" rows="2" placeholder="1456, Mall Road"></textarea>
+                                                                        <textarea name="address" class="form-control" id="address" rows="2" placeholder=""></textarea>
                                                                     </div>
                                                                     <div class="col-md-6">
                                                                         <label class="form-label" for="group">Area of Expertise</label>
                                                                         <input type="text" id="group" class="form-control phone-mask" placeholder="" />
                                                                     </div>
                                                                     <div class="col-md-6">
-                                                                        <label class="form-label" for="group">Stay of Company</label>
+                                                                        <label class="form-label" for="group">Service of Length</label>
                                                                         <input type="text" id="group" class="form-control phone-mask" placeholder="" />
                                                                     </div>
+                                                                    <div class="col-md-6">
+                                                                        <label class="form-label" for="group">Experience</label>
+                                                                        <input type="text" id="group" class="form-control phone-mask" placeholder="" />
+                                                                    </div>
+                                                                    <div class="col-6">
+                                                                        <label class="form-label" for="address">Achievement</label>
+                                                                        <textarea name="address" class="form-control" id="address" rows="2" placeholder=""></textarea>
+                                                                    </div>
+                                                                    
                                                                     <div class="col-md-12">
                                                                         <div class="d-flex align-items-center column-gap-4">
                                                                             <button type="button" class="btn btn-primary">Save</button>
@@ -866,14 +905,15 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="card accordion-item">
+                                {{-- <div class="card accordion-item">
                                     <h2 class="accordion-header" id="headingE3">
-                                        <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#accordionE3" aria-expanded="false" aria-controls="accordionE3">Employment History(For Retired Army Person)</button>
+                                        <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#accordionE3" aria-expanded="false" aria-controls="accordionE3">
+                                            Employment History(For Retired Army Person)</button>
                                     </h2>
                                     <div id="accordionE3" class="accordion-collapse collapse" aria-labelledby="headingE3" data-bs-parent="#accordionExampleThree">
                                         <div class="accordion-body">Dessert ice cream donut oat cake jelly-o pie sugar plum cheesecake. Bear claw dragée oat cake dragée ice cream halvah tootsie roll. Danish cake oat cake pie macaroon tart donut gummies. Jelly beans candy canes carrot cake. Fruitcake chocolate chupa chups.</div>
                                     </div>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                     </div>
@@ -897,10 +937,10 @@
                                                                 <!-- Training Information -->
                                                                 <div class="row g-6">
                                                                     <h5 class="mb-0">Training</h5>
-                                                                    <div class="col-md-12">
+                                                                    {{-- <div class="col-md-12">
                                                                         <label class="form-label" for="skill">Skill</label>
                                                                         <input type="text" id="skill" class="form-control phone-mask" placeholder="" />
-                                                                    </div>
+                                                                    </div> --}}
                                                                     <div class="col-md-12">
                                                                         <label class="form-label d-block mb-2" for="title">How did you learn the skill?</label>
                                                                         <div class="form-check form-check-inline">
@@ -1016,22 +1056,23 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="card accordion-item">
+                                {{-- <div class="card accordion-item">
                                     <h2 class="accordion-header" id="headingOI3">
-                                        <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#accordionOI3" aria-expanded="false" aria-controls="accordionOI3">Link Accounts</button>
+                                        <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#accordionOI3" aria-expanded="false" aria-controls="accordionOI3">
+                                            Link Accounts</button>
                                     </h2>
                                     <div id="accordionOI3" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExampleFour">
                                         <div class="accordion-body">Oat cake toffee chocolate bar jujubes. Marshmallow brownie lemon drops cheesecake. Bonbon gingerbread marshmallow sweet jelly beans muffin. Sweet roll bear claw candy canes oat cake dragée caramels. Ice cream wafer danish cookie caramels muffin.</div>
                                     </div>
-                                </div>
-                                <div class="card accordion-item">
+                                </div> --}}
+                                {{-- <div class="card accordion-item">
                                     <h2 class="accordion-header" id="headingOI4">
                                         <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#accordionOI4" aria-expanded="false" aria-controls="accordionOI4">References</button>
                                     </h2>
                                     <div id="accordionOI4" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExampleFour">
                                         <div class="accordion-body">Oat cake toffee chocolate bar jujubes. Marshmallow brownie lemon drops cheesecake. Bonbon gingerbread marshmallow sweet jelly beans muffin. Sweet roll bear claw candy canes oat cake dragée caramels. Ice cream wafer danish cookie caramels muffin.</div>
                                     </div>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                     </div>

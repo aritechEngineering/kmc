@@ -17,10 +17,14 @@ Route::controller(RouteController::class)->group(function () {
     Route::get('/hr/increment', 'hr_increment')->name('hr_increment');
     Route::get('/hr/disciplinary/transfer', 'hr_transfer')->name('hr_transfer');
     Route::get('/hr/disciplinary/resignation', 'hr_resignation')->name('hr_resignation');
-    Route::get('/hr/disciplinary/promotion', 'hr_promotion')->name('hr_promotion');
+    Route::get('/hr/promotion', 'hr_promotion')->name('hr_promotion');
     Route::get('/hr/disciplinary/complaints', 'hr_complaints')->name('hr_complaints');
     Route::get('/hr/disciplinary/warning', 'hr_warning')->name('hr_warning');
     Route::get('/hr/disciplinary/termination', 'hr_termination')->name('hr_termination');
+    Route::get('/hr/disciplinary/showCause', 'hr_showCause')->name('hr_showCause');
+    Route::get('/hr/disciplinary/advice', 'hr_advice')->name('hr_advice');
+    Route::get('/hr/disciplinary/salary-subtraction', 'hr_salaryDeduction')->name('hr_salaryDeduction');
+    Route::get('/hr/disciplinary/suspend', 'hr_suspend')->name('hr_suspend');
 
     // Attendance
     Route::get('/attendance/attendance', 'atten_attendance')->name('atten_attendance');
@@ -40,6 +44,8 @@ Route::controller(RouteController::class)->group(function () {
 
     // CV
     Route::get('/cv/cv-list', 'cv_list')->name('cv_list');
+    Route::get('/cv/cv-add', 'cv_add')->name('cv_add');
+    Route::get('/cv/cv-details', 'cv_details')->name('cv_details');
     Route::get('/cv/educations', 'cv_educations')->name('cv_educations');
     Route::get('/cv/experties', 'cv_experties')->name('cv_experties');
     Route::get('/cv/category', 'cv_category')->name('cv_category');
@@ -78,9 +84,9 @@ Route::controller(RouteController::class)->group(function () {
     Route::get('/asset/purchase/invoice-list', 'asset_invoice_list')->name('asset_invoice_list');
 
     // Business
-    Route::get('/business/eio/eio', 'busi_eio')->name('busi_eio');
-    Route::get('/business/eio/eio-add', 'busi_eioadd')->name('busi_eioadd');
-    Route::get('/business/eio/eio-view', 'busi_eioview')->name('busi_eioview');
+    Route::get('/business/busi_eoi/busi_eoi', 'busi_eoi')->name('busi_eoi');
+    Route::get('/business/busi_eoi/busi_eoi-add', 'busi_eioadd')->name('busi_eoiadd');
+    Route::get('/business/busi_eoi/busi_eoi-view', 'busi_eioview')->name('busi_eoiview');
     Route::get('/business/proposal/proposals', 'busi_proposals')->name('busi_proposals');
     Route::get('/business/proposal/proposal-add', 'busi_proposaladd')->name('busi_proposaladd');
     Route::get('/business/proposal/proposal-view', 'busi_proposalview')->name('busi_proposalview');

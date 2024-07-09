@@ -10,7 +10,7 @@
             <div class="d-flex justify-content-between align-items-center">
                 <h5 class="card-header">List of CV</h5>
                 <div class="px-5">
-                    <a href="cv-add.html" class="btn btn-primary btn-sm">Add CV</a>
+                    <a href="{{ route('cv_add')}}" class="btn btn-primary btn-sm">Add CV</a>
                 </div>
             </div>
 
@@ -85,7 +85,7 @@
                             <td>18 Years</td>
                             <td>48 Years</td>
                             <td>
-                                <a href="cv-details.html" class="btn btn-sm btn-success">View Details</a>
+                                <a href="{{route('cv_details')}}" class="btn btn-sm btn-success">View Details</a>
                             </td>
                         </tr>
 
@@ -99,7 +99,7 @@
                             <td>16 Years</td>
                             <td>46 Years</td>
                             <td>
-                                <a href="cv-details.html" class="btn btn-sm btn-success">View Details</a>
+                                <a href="{{route('cv_details')}}" class="btn btn-sm btn-success">View Details</a>
                             </td>
                         </tr>
 
@@ -113,7 +113,7 @@
                             <td>16 Years</td>
                             <td>46 Years</td>
                             <td>
-                                <a href="cv-details.html" class="btn btn-sm btn-success">View Details</a>
+                                <a href="{{route('cv_details')}}" class="btn btn-sm btn-success">View Details</a>
                             </td>
                         </tr>
 
@@ -127,7 +127,7 @@
                             <td>16 Years</td>
                             <td>46 Years</td>
                             <td>
-                                <a href="cv-details.html" class="btn btn-sm btn-success">View Details</a>
+                                <a href="{{route('cv_details')}}" class="btn btn-sm btn-success">View Details</a>
                             </td>
                         </tr>
 
@@ -141,7 +141,7 @@
                             <td>16 Years</td>
                             <td>46 Years</td>
                             <td>
-                                <a href="cv-details.html" class="btn btn-sm btn-success">View Details</a>
+                                <a href="{{route('cv_details')}}" class="btn btn-sm btn-success">View Details</a>
                             </td>
                         </tr>
 
@@ -155,7 +155,7 @@
                             <td>16 Years</td>
                             <td>46 Years</td>
                             <td>
-                                <a href="cv-details.html" class="btn btn-sm btn-success">View Details</a>
+                                <a href="{{route('cv_details')}}" class="btn btn-sm btn-success">View Details</a>
                             </td>
                         </tr>
 
@@ -169,7 +169,7 @@
                             <td>16 Years</td>
                             <td>46 Years</td>
                             <td>
-                                <a href="cv-details.html" class="btn btn-sm btn-success">View Details</a>
+                                <a href="{{route('cv_details')}}" class="btn btn-sm btn-success">View Details</a>
                             </td>
                         </tr>
 
@@ -183,7 +183,7 @@
                             <td>16 Years</td>
                             <td>46 Years</td>
                             <td>
-                                <a href="cv-details.html" class="btn btn-sm btn-success">View Details</a>
+                                <a href="{{route('cv_details')}}" class="btn btn-sm btn-success">View Details</a>
                             </td>
                         </tr>
 
@@ -197,7 +197,7 @@
                             <td>16 Years</td>
                             <td>46 Years</td>
                             <td>
-                                <a href="cv-details.html" class="btn btn-sm btn-success">View Details</a>
+                                <a href="{{route('cv_details')}}" class="btn btn-sm btn-success">View Details</a>
                             </td>
                         </tr>
 
@@ -211,7 +211,7 @@
                             <td>16 Years</td>
                             <td>46 Years</td>
                             <td>
-                                <a href="cv-details.html" class="btn btn-sm btn-success">View Details</a>
+                                <a href="{{route('cv_details')}}" class="btn btn-sm btn-success">View Details</a>
                             </td>
                         </tr>
                     </tbody>

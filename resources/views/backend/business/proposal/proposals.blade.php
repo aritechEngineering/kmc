@@ -21,10 +21,11 @@
                             <th>Sl No.</th>
                             <th>Project Name</th>
                             <th>Client Name</th>
-                            <th>Founded by</th>
+                            <th>Funded by</th>
                             <th>Associated Firms</th>
                             <th>Pre-Bid Meeting Date</th>
                             <th>Status</th>
+                            <th>Submission Date</th>
                             <th>Result</th>
                             <th>Action</th>
                         </tr>
@@ -38,11 +39,12 @@
                             <td>EFG</td>
                             <td>15-10-2024</td>
                             <td>Submitted</td>
+                            <td>15-10-2022</td>
                             <td>Accepted</td>
                             <td>
                                 <a href="{{ route('busi_proposalview') }}" class="btn btn-primary btn-sm">Details</a>
                                 <a href="#" class="btn btn-info btn-sm">Edit</a>
-                                <a href="#" class="btn btn-danger btn-sm">Delete</a>
+                                <a href="#" class="btn btn-danger btn-sm mt-1">Delete</a>
                             </td>
                         </tr>
 
@@ -54,11 +56,12 @@
                             <td>ABC</td>
                             <td>15-10-2024</td>
                             <td>Submitted</td>
+                            <td>15-10-2022</td>
                             <td>Accepted</td>
                             <td>
                                 <a href="{{ route('busi_proposalview') }}" class="btn btn-primary btn-sm">Details</a>
                                 <a href="#" class="btn btn-info btn-sm">Edit</a>
-                                <a href="#" class="btn btn-danger btn-sm">Delete</a>
+                                <a href="#" class="btn btn-danger btn-sm mt-1">Delete</a>
                             </td>
                         </tr>
 
@@ -70,11 +73,12 @@
                             <td>ABC</td>
                             <td>15-10-2024</td>
                             <td>Submitted</td>
+                            <td>15-10-2022</td>
                             <td>Accepted</td>
                             <td>
                                 <a href="{{ route('busi_proposalview') }}" class="btn btn-primary btn-sm">Details</a>
                                 <a href="#" class="btn btn-info btn-sm">Edit</a>
-                                <a href="#" class="btn btn-danger btn-sm">Delete</a>
+                                <a href="#" class="btn btn-danger btn-sm mt-1">Delete</a>
                             </td>
                         </tr>
                     </tbody>

@@ -8,9 +8,9 @@
 
         <div class="card">
             <div class="d-flex justify-content-between align-items-center">
-                <h5 class="card-header">List of CV</h5>
+                <h5 class="card-header">Task List</h5>
                 <div class="px-5">
-                    <a href="task-entry.html" class="btn btn-primary btn-sm">Assign Task</a>
+                    <a href="{{ route('task_entry')}}" class="btn btn-primary btn-sm">Assign Task</a>
                 </div>
             </div>
 
@@ -31,8 +31,8 @@
                                     </div>
 
                                     <div class="col-2">
-                                        <label class="form-label" for="formtabs-country6">Project Name</label>
-                                        <select id="formtabs-country6" class="select2 form-select" data-allow-clear="true" style="line-height: 17px">
+                                        <label class="form-label" for="formtabs-country4">Project Name</label>
+                                        <select id="formtabs-country4" class="select2 form-select" data-allow-clear="true" style="line-height: 26px">
                                             <option value=""></option>
                                             <option value="Australia">Project 1</option>
                                             <option value="Bangladesh">Project 2</option>
@@ -52,12 +52,12 @@
 
                                     <div class="col-2">
                                         <label class="form-label" for="formtabs-country7">From Date</label>
-                                        <input type="date" class="form-control" placeholder="DD MM YY" style="line-height: 17px" />
+                                        <input type="date" class="form-control" placeholder="DD MM YY" style="line-height: 26px" />
                                     </div>
 
                                     <div class="col-2">
                                         <label class="form-label" for="formtabs-country7">To Date</label>
-                                        <input type="date" class="form-control" placeholder="DD MM YY" style="line-height: 17px" />
+                                        <input type="date" class="form-control" placeholder="DD MM YY" style="line-height: 26px" />
                                     </div>
 
                                     <div class="col-2">
@@ -77,6 +77,7 @@
 
                         <tr>
                             <th>Sl No.</th>
+                            <th>Employee Name</th>
                             <th>Project Location</th>
                             <th>Project Name</th>
                             <th>From Date</th>
@@ -89,6 +90,7 @@
                     <tbody>
                         <tr>
                             <td>01</td>
+                            <td>Mr. Rakibul Islam</td>
                             <td>Dhaka</td>
                             <td>Metro Rail- 5</td>
                             <td>10-05-2024</td>
@@ -102,6 +104,7 @@
 
                         <tr>
                             <td>02</td>
+                            <td>Mr. Shohel Khan</td>
                             <td>Dhaka</td>
                             <td>Metro Rail- 5</td>
                             <td>10-05-2024</td>
@@ -115,6 +118,7 @@
 
                         <tr>
                             <td>03</td>
+                            <td>Mr. Rashedul Islam</td>
                             <td>Dhaka</td>
                             <td>Metro Rail- 5</td>
                             <td>10-05-2024</td>
@@ -128,6 +132,7 @@
 
                         <tr>
                             <td>04</td>
+                            <td>Mr. Rashedul Islam</td>
                             <td>Dhaka</td>
                             <td>Metro Rail- 5</td>
                             <td>10-05-2024</td>
@@ -141,6 +146,7 @@
 
                         <tr>
                             <td>05</td>
+                            <td>Mr. Rashedul Islam</td>
                             <td>Dhaka</td>
                             <td>Metro Rail- 5</td>
                             <td>10-05-2024</td>
@@ -154,6 +160,7 @@
 
                         <tr>
                             <td>06</td>
+                            <td>Mr. Rashedul Islam</td>
                             <td>Dhaka</td>
                             <td>Metro Rail- 5</td>
                             <td>10-05-2024</td>
@@ -167,6 +174,7 @@
 
                         <tr>
                             <td>07</td>
+                            <td>Mr. Rashedul Islam</td>
                             <td>Dhaka</td>
                             <td>Metro Rail- 5</td>
                             <td>10-05-2024</td>
@@ -180,6 +188,7 @@
 
                         <tr>
                             <td>08</td>
+                            <td>Mr. Rashedul Islam</td>
                             <td>Dhaka</td>
                             <td>Metro Rail- 5</td>
                             <td>10-05-2024</td>
@@ -193,6 +202,7 @@
 
                         <tr>
                             <td>09</td>
+                            <td>Mr. Rashedul Islam</td>
                             <td>Dhaka</td>
                             <td>Metro Rail- 5</td>
                             <td>10-05-2024</td>
@@ -206,6 +216,7 @@
 
                         <tr>
                             <td>10</td>
+                            <td>Mr. Rashedul Islam</td>
                             <td>Dhaka</td>
                             <td>Metro Rail- 5</td>
                             <td>10-05-2024</td>

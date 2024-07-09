@@ -60,7 +60,7 @@
                                 <th class="control dtr-hidden" rowspan="1" colspan="1" style="display: none"></th>
                                 <th rowspan="1" colspan="1">Name</th>
                                 <th rowspan="1" colspan="1">Email</th>
-                                <th rowspan="1" colspan="1">Post</th>
+                                <th rowspan="1" colspan="1">Designation</th>
                                 <th rowspan="1" colspan="1">City</th>
                                 <th rowspan="1" colspan="1">Date</th>
                                 <th rowspan="1" colspan="1">Salary</th>

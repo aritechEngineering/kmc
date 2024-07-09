@@ -10,7 +10,7 @@
             <div class="d-flex justify-content-between align-items-center">
                 <h5 class="card-header">List of EOI</h5>
                 <div class="px-5">
-                    <a href="{{ route('busi_eioadd') }}" class="btn btn-primary">EOI Entry</a>
+                    <a href="{{ route('busi_eoiadd') }}" class="btn btn-primary">EOI Entry</a>
                 </div>
             </div>
 
@@ -21,10 +21,11 @@
                             <th>Sl No.</th>
                             <th>Project Name</th>
                             <th>Client Name</th>
-                            <th>Founded by</th>
+                            <th>Funded by</th>
                             <th>Sector</th>
                             <th>Associated Firms</th>
                             <th>Status</th>
+                            <th>Submission Date</th>
                             <th>Result</th>
                             <th>Action</th>
                         </tr>
@@ -38,9 +39,10 @@
                             <td>ABC</td>
                             <td>EFG</td>
                             <td>Submitted</td>
+                            <td>10/10/2021</td>
                             <td>Accepted</td>
                             <td>
-                                <a href="{{ route('busi_eioview') }}" class="btn btn-primary btn-sm">Details</a>
+                                <a href="{{ route('busi_eoiview') }}" class="btn btn-primary btn-sm">Details</a>
                                 <a href="#" class="btn btn-info btn-sm">Edit</a>
                                 <a href="#" class="btn btn-danger btn-sm">Delete</a>
                             </td>
@@ -54,9 +56,10 @@
                             <td>ABC</td>
                             <td>EFG</td>
                             <td>Submitted</td>
+                            <td>10/10/2021</td>
                             <td>Accepted</td>
                             <td>
-                                <a href="{{ route('busi_eioview') }}" class="btn btn-primary btn-sm">Details</a>
+                                <a href="{{ route('busi_eoiview') }}" class="btn btn-primary btn-sm">Details</a>
                                 <a href="#" class="btn btn-info btn-sm">Edit</a>
                                 <a href="#" class="btn btn-danger btn-sm">Delete</a>
                             </td>
@@ -70,9 +73,10 @@
                             <td>ABC</td>
                             <td>EFG</td>
                             <td>Submitted</td>
+                            <td>10/10/2021</td>
                             <td>Accepted</td>
                             <td>
-                                <a href="{{ route('busi_eioview') }}" class="btn btn-primary btn-sm">Details</a>
+                                <a href="{{ route('busi_eoiview') }}" class="btn btn-primary btn-sm">Details</a>
                                 <a href="#" class="btn btn-info btn-sm">Edit</a>
                                 <a href="#" class="btn btn-danger btn-sm">Delete</a>
                             </td>

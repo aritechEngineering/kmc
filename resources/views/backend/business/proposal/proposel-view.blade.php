@@ -37,8 +37,8 @@
                                                     <input type="text" id="formtabs-first-name" class="form-control" placeholder="client name" />
                                                 </div>
                                                 <div class="col-md-4">
-                                                    <label class="form-label" for="formtabs-first-name">Founded by</label>
-                                                    <input type="text" id="formtabs-first-name" class="form-control" placeholder="founded by" />
+                                                    <label class="form-label" for="formtabs-first-name">Funded by</label>
+                                                    <input type="text" id="formtabs-first-name" class="form-control" placeholder="Funded by" />
                                                 </div>
                                                 <div class="col-md-4">
                                                     <label class="form-label" for="formtabs-first-name">Sector</label>

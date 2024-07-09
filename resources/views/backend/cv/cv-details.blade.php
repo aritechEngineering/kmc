@@ -13,7 +13,9 @@
                         <div class="nav-align-top">
                             <ul class="nav nav-tabs" role="tablist">
                                 <li class="nav-item">
-                                    <button type="button" class="nav-link active" data-bs-toggle="tab" data-bs-target="#form-tabs-personal" aria-controls="form-tabs-personal" role="tab" aria-selected="true"><span class="ti ti-user ti-lg d-sm-none"></span><span class="d-none d-sm-block">CV Details</span></button>
+                                    <button type="button" class="nav-link active" data-bs-toggle="tab" data-bs-target="#form-tabs-personal" 
+                                    aria-controls="form-tabs-personal" role="tab" aria-selected="true"><span class="ti ti-user ti-lg d-sm-none">
+                                        </span><span class="d-none d-sm-block">CV Details</span></button>
                                 </li>
                             </ul>
                         </div>

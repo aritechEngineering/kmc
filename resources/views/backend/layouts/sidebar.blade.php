@@ -105,36 +105,58 @@
                         <div data-i18n="Increment">Increment</div>
                     </a>
                 </li>
+                <li class="menu-item {{ Request::route()->named('hr_transfer') ? 'active' : '' }}">
+                    <a href="{{ route('hr_transfer') }}" class="menu-link">
+                        <div data-i18n="Transfer">Transfer</div>
+                    </a>
+                </li>
+                <li class="menu-item {{ Request::route()->named('hr_promotion') ? 'active' : '' }}">
+                    <a href="{{ route('hr_promotion') }}" class="menu-link">
+                        <div data-i18n="Promotion">Promotion</div>
+                    </a>
+                </li>
+                <li class="menu-item {{ Request::route()->named('hr_resignation') ? 'active' : '' }}">
+                    <a href="{{ route('hr_resignation') }}" class="menu-link">
+                        <div data-i18n="Resignation">Resignation</div>
+                    </a>
+                </li>
+                <li class="menu-item {{ Request::route()->named('hr_complaints') ? 'active' : '' }}">
+                    <a href="{{ route('hr_complaints') }}" class="menu-link">
+                        <div data-i18n="Complaints">Complaints</div>
+                    </a>
+                </li>
+                <li class="menu-item {{ Request::route()->named('hr_termination') ? 'active' : '' }}">
+                    <a href="{{ route('hr_termination') }}" class="menu-link">
+                        <div data-i18n="Termination">Termination</div>
+                    </a>
+                </li>
+
+
                 <li class="menu-item
-                        {{ Request::route()->named('hr_transfer') ? 'active open' : '' }}
-                        {{ Request::route()->named('hr_resignation') ? 'active open' : '' }}
-                        {{ Request::route()->named('hr_promotion') ? 'active open' : '' }}
-                        {{ Request::route()->named('hr_complaints') ? 'active open' : '' }}
+                        {{ Request::route()->named('hr_showCause') ? 'active open' : '' }}
+                        {{ Request::route()->named('hr_advice') ? 'active open' : '' }}
+                        {{ Request::route()->named('hr_salaryDeduction') ? 'active open' : '' }}
+                        {{ Request::route()->named('hr_suspend') ? 'active open' : '' }}
                         {{ Request::route()->named('hr_warning') ? 'active open' : '' }}
-                        {{ Request::route()->named('hr_termination') ? 'active open' : '' }}
+                        {{-- {{ Request::route()->named('hr_termination') ? 'active open' : '' }} --}}
                     ">
                     <a href="javascript:void(0);" class="menu-link menu-toggle">
                         <div data-i18n="Disciplinary">Disciplinary</div>
                     </a>
                     <ul class="menu-sub">
-                        <li class="menu-item {{ Request::route()->named('hr_transfer') ? 'active' : '' }}">
-                            <a href="{{ route('hr_transfer') }}" class="menu-link">
-                                <div data-i18n="Transfer">Transfer</div>
+                        <li class="menu-item {{ Request::route()->named('hr_showCause') ? 'active' : '' }}">
+                            <a href="{{ route('hr_showCause') }}" class="menu-link">
+                                <div data-i18n="Show Cause">Show Cause</div>
                             </a>
                         </li>
-                        <li class="menu-item {{ Request::route()->named('hr_resignation') ? 'active' : '' }}">
-                            <a href="{{ route('hr_resignation') }}" class="menu-link">
-                                <div data-i18n="Resignation">Resignation</div>
+                        <li class="menu-item {{ Request::route()->named('hr_advice') ? 'active' : '' }}">
+                            <a href="{{ route('hr_advice') }}" class="menu-link">
+                                <div data-i18n="Advice">Advice</div>
                             </a>
                         </li>
-                        <li class="menu-item {{ Request::route()->named('hr_promotion') ? 'active' : '' }}">
-                            <a href="{{ route('hr_promotion') }}" class="menu-link">
-                                <div data-i18n="Promotion">Promotion</div>
-                            </a>
-                        </li>
-                        <li class="menu-item {{ Request::route()->named('hr_complaints') ? 'active' : '' }}">
-                            <a href="{{ route('hr_complaints') }}" class="menu-link">
-                                <div data-i18n="Complaint">Complaint</div>
+                        <li class="menu-item {{ Request::route()->named('hr_salaryDeduction') ? 'active' : '' }}">
+                            <a href="{{ route('hr_salaryDeduction') }}" class="menu-link">
+                                <div data-i18n="salary subtraction">salary subtraction</div>
                             </a>
                         </li>
                         <li class="menu-item {{ Request::route()->named('hr_warning') ? 'active' : '' }}">
@@ -142,11 +164,16 @@
                                 <div data-i18n="Warning">Warning</div>
                             </a>
                         </li>
-                        <li class="menu-item {{ Request::route()->named('hr_termination') ? 'active' : '' }}">
+                        <li class="menu-item {{ Request::route()->named('hr_suspend') ? 'active' : '' }}">
+                            <a href="{{ route('hr_suspend') }}" class="menu-link">
+                                <div data-i18n="suspend">suspend</div>
+                            </a>
+                        </li>
+                        {{-- <li class="menu-item {{ Request::route()->named('hr_termination') ? 'active' : '' }}">
                             <a href="{{ route('hr_termination') }}" class="menu-link">
                                 <div data-i18n="Termination">Termination</div>
                             </a>
-                        </li>
+                        </li> --}}
                     </ul>
                 </li>
             </ul>
@@ -554,9 +581,9 @@
 
         <!-- Business Module start -->
         <li class="menu-item
-                {{ Request::route()->named('busi_eio') ? 'active open' : '' }}
-                {{ Request::route()->named('busi_eioadd') ? 'active open' : '' }}
-                {{ Request::route()->named('busi_eioview') ? 'active open' : '' }}
+                {{ Request::route()->named('busi_eoi') ? 'active open' : '' }}
+                {{ Request::route()->named('busi_eoiadd') ? 'active open' : '' }}
+                {{ Request::route()->named('busi_eoiview') ? 'active open' : '' }}
                 {{ Request::route()->named('busi_proposals') ? 'active open' : '' }}
                 {{ Request::route()->named('busi_proposaladd') ? 'active open' : '' }}
                 {{ Request::route()->named('busi_proposalview') ? 'active open' : '' }}
@@ -568,9 +595,9 @@
                 <div data-i18n="Business Module">Business Module</div>
             </a>
             <ul class="menu-sub">
-                <li class="menu-item {{ Request::route()->named('busi_eio') ? 'active' : '' }}{{ Request::route()->named('busi_eioadd') ? 'active' : '' }}{{ Request::route()->named('busi_eioview') ? 'active' : '' }}">
-                    <a href="{{ route('busi_eio') }}" class="menu-link">
-                        <div data-i18n="EIO">EIO</div>
+                <li class="menu-item {{ Request::route()->named('busi_eoi') ? 'active' : '' }}{{ Request::route()->named('busi_eoiadd') ? 'active' : '' }}{{ Request::route()->named('busi_eoiview') ? 'active' : '' }}">
+                    <a href="{{ route('busi_eoi') }}" class="menu-link">
+                        <div data-i18n="EOI">EOI</div>
                     </a>
                 </li>
                 <li class="menu-item {{ Request::route()->named('busi_proposals') ? 'active' : '' }}{{ Request::route()->named('busi_proposaladd') ? 'active' : '' }}{{ Request::route()->named('busi_proposalview') ? 'active' : '' }}">
@@ -616,7 +643,7 @@
             ">
             <a href="javascript:void(0);" class="menu-link menu-toggle">
                 <i class="menu-icon tf-icons ti ti-settings"></i>
-                <div data-i18n="Administration">Administration</div>
+                <div data-i18n="Configuration">Configuration</div>
             </a>
             <ul class="menu-sub">
                 <li class="menu-item {{ Request::route()->named('admini_department') ? 'active' : '' }}">
@@ -656,7 +683,7 @@
                 </li>
                 <li class="menu-item {{ Request::route()->named('admini_months') ? 'active' : '' }}">
                     <a href="{{ route('admini_months') }}" class="menu-link">
-                        <div data-i18n="Entry">Month Entry</div>
+                        <div data-i18n="Month Entry">Month Entry</div>
                     </a>
                 </li>
                 <li class="menu-item {{ Request::route()->named('admini_shiftentry') ? 'active' : '' }}">

@@ -14,7 +14,7 @@
                                 <li class="nav-item">
                                     <button type="button" class="nav-link active" data-bs-toggle="tab" data-bs-target="#form-tabs-personal" aria-controls="form-tabs-personal" role="tab" aria-selected="true">
                                         <span class="ti ti-user ti-lg d-sm-none"></span>
-                                        <span class="d-none d-sm-block">EOI Entry</span>
+                                        <span class="d-none d-sm-block">EOI Details</span>
                                     </button>
                                 </li>
                             </ul>
@@ -27,54 +27,41 @@
                                     <div data-repeater-list="group-a">
                                         <div data-repeater-item>
                                             <div class="row g-6 py-4">
-                                                <h5 class="mb-0">EIO</h5>
+                                                <!-- <h5>EOI</h5> -->
                                                 <div class="col-md-4">
                                                     <label class="form-label" for="formtabs-first-name">Project Name</label>
-                                                    <input type="text" id="formtabs-first-name" class="form-control" placeholder="project name" />
+                                                    <input type="text" id="formtabs-first-name" class="form-control" placeholder="project name" value="XYZ" />
                                                 </div>
                                                 <div class="col-md-4">
                                                     <label class="form-label" for="formtabs-first-name">Client Name</label>
-                                                    <input type="text" id="formtabs-first-name" class="form-control" placeholder="client name" />
+                                                    <input type="text" id="formtabs-first-name" class="form-control" placeholder="client name" value="XYZ" />
                                                 </div>
                                                 <div class="col-md-4">
-                                                    <label class="form-label" for="formtabs-first-name">Founded by</label>
-                                                    <input type="text" id="formtabs-first-name" class="form-control" placeholder="founded by" />
+                                                    <label class="form-label" for="formtabs-first-name">Funded by</label>
+                                                    <input type="text" id="formtabs-first-name" class="form-control" placeholder="Funded by" value="XYZ" />
                                                 </div>
                                                 <div class="col-md-4">
                                                     <label class="form-label" for="formtabs-first-name">Sector</label>
-                                                    <input type="text" id="formtabs-first-name" class="form-control" placeholder="Sector" />
+                                                    <input type="text" id="formtabs-first-name" class="form-control" placeholder="Sector" value="XYZ" />
                                                 </div>
                                                 <div class="col-md-4">
                                                     <label class="form-label" for="formtabs-first-name">Associated Firms</label>
-                                                    <input type="text" id="formtabs-first-name" class="form-control" placeholder="firms name" />
+                                                    <input type="text" id="formtabs-first-name" class="form-control" placeholder="firms name" value="XYZ" />
                                                 </div>
                                                 <div class="col-md-4">
                                                     <label class="form-label" for="formtabs-first-name">Issue Date</label>
-                                                    <input type="date" id="formtabs-first-name" class="form-control" placeholder="firms name" />
+                                                    <input type="date" id="formtabs-first-name" class="form-control" placeholder="firms name" value="05-28-2023" />
                                                 </div>
-                                                <div class="col-md-4">
+                                                {{-- <div class="col-md-4">
                                                     <label class="form-label" for="formtabs-first-name">Submission Date</label>
-                                                    <input type="date" id="formtabs-first-name" class="form-control" placeholder="firms name" />
-                                                </div>
+                                                    <input type="date" id="formtabs-first-name" class="form-control" placeholder="firms name" value="05-28-2023" />
+                                                </div> --}}
                                                 <div class="col-md-4">
                                                     <label class="form-label" for="formtabs-first-name">EOI file location</label>
-                                                    <input type="text" id="formtabs-seat-capacity" class="form-control" placeholder="link" />
-                                                </div>
-                                                <div class="col-12 d-flex gap-column-4 justify-content-start">
-                                                    <button type="submit" class="btn btn-primary me-4">Save</button>
-                                                    <button type="button" class="btn btn-label-danger" data-repeater-delete>
-                                                        <i class="ti ti-x ti-xs me-1"></i>
-                                                        <span class="align-middle">Delete</span>
-                                                    </button>
+                                                    <input type="text" id="formtabs-seat-capacity" class="form-control" placeholder="link" value="www.exaple.com" />
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="mt-8">
-                                        <button type="button" class="btn btn-primary" data-repeater-create>
-                                            <i class="ti ti-plus ti-xs me-2"></i>
-                                            <span class="align-middle">Add</span>
-                                        </button>
                                     </div>
                                 </form>
                             </div>

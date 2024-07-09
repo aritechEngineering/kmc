@@ -144,6 +144,18 @@
                         <label for="">Sub Category Name</label>
                         <input type="text" class="form-control mt-1" />
                     </div>
+                    <div class="mb-6">
+                        <label for="">Colour</label>
+                        <input type="text" class="form-control mt-1" />
+                    </div>
+                    <div class="mb-6">
+                        <label for="">Product Brand</label>
+                        <input type="text" class="form-control mt-1" />
+                    </div>
+                    <div class="mb-6">
+                        <label for="">Model</label>
+                        <input type="text" class="form-control mt-1" />
+                    </div>
 
                     <!-- Description -->
                     <div class="mb-6">
@@ -166,7 +178,7 @@
                         </div>
                     </div>
 
-                    <div class="mb-6">
+                    {{-- <div class="mb-6">
                         <label class="form-label" for="formtabs-country">License Type</label>
                         <select id="formtabs-country" class="select2 form-select" data-allow-clear="true">
                             <option value="">Select</option>
@@ -174,7 +186,7 @@
                             <option value="Bangladesh">Heavy</option>
                             <option value="Mazda">2 Wheel</option>
                         </select>
-                    </div>
+                    </div> --}}
                     <div class="mb-6">
                         <label class="form-check-label fs-6" for="flexSwitchCheckChecked">Status</label>
                         <div class="col-2 form-check form-switch" style="padding-left: 50px">

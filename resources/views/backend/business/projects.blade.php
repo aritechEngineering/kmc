@@ -10,7 +10,7 @@
             <div class="d-flex justify-content-between align-items-center">
                 <h5 class="card-header">List of Proposal</h5>
                 <div class="px-5">
-                    <a href="{{ route('busi_projectview') }}" class="btn btn-primary">Proposal Entry</a>
+                    {{-- <a href="{{ route('busi_projectview') }}" class="btn btn-primary">Proposal Entry</a> --}}
                 </div>
             </div>
 
@@ -25,7 +25,7 @@
                             <th>Associated Firms</th>
                             <th>Approx Contract Value</th>
                             <th>Status</th>
-                            <th>Result</th>
+                            {{-- <th>Result</th> --}}
                             <th>Action</th>
                         </tr>
                     </thead>
@@ -38,9 +38,9 @@
                             <td>DMTS</td>
                             <td>12,300,051,236.00</td>
                             <td>Submitted</td>
-                            <td>Accepted</td>
+                            {{-- <td>Accepted</td> --}}
                             <td>
-                                <a href="view-details.html" class="btn btn-primary btn-sm">Details</a>
+                                <a href="{{ route('busi_projectview') }}" class="btn btn-primary btn-sm">Details</a>
                             </td>
                         </tr>
 
@@ -52,9 +52,9 @@
                             <td>DMTS</td>
                             <td>12,300,051,236.00</td>
                             <td>Submitted</td>
-                            <td>Accepted</td>
+                            {{-- <td>Accepted</td> --}}
                             <td>
-                                <a href="view-details.html" class="btn btn-primary btn-sm">Details</a>
+                                <a href="{{ route('busi_projectview') }}" class="btn btn-primary btn-sm">Details</a>
                             </td>
                         </tr>
 
@@ -66,9 +66,9 @@
                             <td>DMTS</td>
                             <td>12,300,051,236.00</td>
                             <td>Submitted</td>
-                            <td>Accepted</td>
+                            {{-- <td>Accepted</td> --}}
                             <td>
-                                <a href="view-details.html" class="btn btn-primary btn-sm">Details</a>
+                                <a href="{{ route('busi_projectview') }}" class="btn btn-primary btn-sm">Details</a>
                             </td>
                         </tr>
                     </tbody>

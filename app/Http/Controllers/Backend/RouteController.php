@@ -27,29 +27,47 @@ class RouteController extends Controller
     }
     public function hr_transfer()
     {
-        return view('backend.hr.disciplinary.transfer');
+        return view('backend.hr.transfer');
     }
     public function hr_resignation()
     {
-        return view('backend.hr.disciplinary.resignation');
+        return view('backend.hr.resignation');
     }
     public function hr_promotion()
     {
-        return view('backend.hr.disciplinary.promotion');
+        return view('backend.hr.promotion');
     }
     public function hr_complaints()
     {
-        return view('backend.hr.disciplinary.complaints');
+        return view('backend.hr.complaints');
+    }
+    public function hr_termination()
+    {
+        return view('backend.hr.termination');
     }
     public function hr_warning()
     {
         return view('backend.hr.disciplinary.warning');
     }
-    public function hr_termination()
+    public function hr_showCause()
     {
-        return view('backend.hr.disciplinary.termination');
+        return view('backend.hr.disciplinary.showcause');
+    }
+    public function hr_advice()
+    {
+        return view('backend.hr.disciplinary.advice');
     }
 
+    public function hr_salaryDeduction()
+    {
+        return view('backend.hr.disciplinary.salarydeduction');
+    }
+    public function hr_suspend()
+    {
+        return view('backend.hr.disciplinary.suspend');
+    }
+
+    
 
     // Attendance
     public function atten_attendance()
@@ -109,6 +127,14 @@ class RouteController extends Controller
     public function cv_list()
     {
         return view('backend.cv.cv-list');
+    }
+    public function cv_add()
+    {
+        return view('backend.cv.cv-add');
+    }
+    public function cv_details()
+    {
+        return view('backend.cv.cv-details');
     }
     public function cv_educations()
     {
@@ -234,17 +260,17 @@ class RouteController extends Controller
 
 
     // Business
-    public function busi_eio()
+    public function busi_eoi()
     {
-        return view('backend.business.eio.eio');
+        return view('backend.business.eoi.eoi');
     }
     public function busi_eioadd()
     {
-        return view('backend.business.eio.eio-entry');
+        return view('backend.business.eoi.eoi-entry');
     }
     public function busi_eioview()
     {
-        return view('backend.business.eio.eio-view');
+        return view('backend.business.eoi.eoi-view');
     }
     public function busi_proposals()
     {
